@@ -1,0 +1,53 @@
+body {
+  background-color: rgb(240, 32, 88);
+}
+
+.header {
+  background-color: #ffffff;
+  padding-top: 40px;
+}
+
+.logo {
+  width: 19%;
+  margin-left: 130px;
+  margin-bottom: 10px;
+}
+
+.headernav {
+  background-color: rgb(247, 211, 54);
+  padding-top: 10px;
+}
+
+.headericonos>a>i {
+  font-size: 270%;
+}
+
+.headericonos {
+  margin-top: 30px;
+}
+
+.headericonos>a>i:hover {
+  color: rgb(219, 26, 119);
+}
+
+.imagen1, .imagen2 {
+  width: 100%;
+}
+
+@media screen and (min-width: 600px) {
+  .imagen1 {
+    margin-top: 210px;
+  }
+}
+
+.sectionbody {
+  background-color: #ffffff;
+}
+
+.glyphicon-user {
+  font-size: 29px;
+}
+
+.gly-search {
+  margin-top: 10px;
+}
