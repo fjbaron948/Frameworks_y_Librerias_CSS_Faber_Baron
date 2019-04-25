@@ -34,18 +34,12 @@ body {
   width: 100%;
 }
 
-@media screen and (min-width: 600px) {
-  .imagen1 {
-    margin-top: 210px;
-  }
-}
-
 .sectionbody {
   background-color: #ffffff;
 }
 
 .glyphicon-user {
-  font-size: 29px;
+  margin-top: 7px;
 }
 
 .gly-search {

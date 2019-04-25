@@ -1,4 +1,56 @@
 
-.borde {
-  border: 1px dotted;
+body {
+  background-image: url(https://pixabay.com/get/e83cb70c2ff0053ed1584d05fb094797e375e1d71db10c4090f4c67fa6ebb1bbd0/rio-de-janeiro-1963744_1280.jpg);
+  background-repeat: repeat;
+}
+
+nav {
+  height: 120px;
+}
+
+.logo {
+  width: 25%;
+  margin-left: 50px;
+  margin-top: 20px;
+}
+
+.img4 {
+  height: 750px;
+}
+
+.iconos>a>i {
+  font-size: 350%
+}
+
+.iconos>a>i:hover {
+  color: rgb(244, 69, 195);
+}
+
+.img8 {
+  width: 30%;
+}
+
+.bioimg {
+  width: 40%;
+}
+
+.biocont {
+  text-align: center;
+}
+
+.tiny {
+  width: 80px;
+}
+
+@media only screen and (max-width: 600px) {
+  nav {
+    height: 170px;
+  }
+  .logo {
+    margin-left: 30px;
+    margin-top: 110px;
+  }
+  .headernav {
+    margin-left: 30px;
+  }
 }
